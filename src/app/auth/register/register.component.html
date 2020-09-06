@@ -5,7 +5,10 @@
       <mat-card-title>Create your account</mat-card-title>
     </mat-card-header>
     <mat-card-subtitle>Lorem ipsum dolor sit amet, consectetur adipiscing elit</mat-card-subtitle>
-
+    <div class="provider-buttons">
+      <button mat-raised-button class="google" (click)="signInWithGoogle()" #loginRef>Log in with Google</button>
+      <button mat-raised-button class="fb">Log in with Facebook</button>
+    </div>
     <form class="example-form">
       <mat-card-content>
         <mat-form-field class="example-full-width">
@@ -22,7 +25,7 @@
         </mat-form-field>
       </mat-card-content>
       <mat-card-subtitle>By clicking Sign Up, you agree to our Terms of Use and our Privacy Policy.</mat-card-subtitle>
-      <button mat-stroked-button color="accent" class="btn-block">SIGN UP</button>
+      <button mat-stroked-button color="accent" class="btn-block" (click)="createUser()">SIGN UP</button>
     </form>
   </mat-card>
 

@@ -168,3 +168,19 @@ body {
   margin-bottom: 0;
   box-shadow: none;
 }
+
+
+.provider-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  -webkit-tap-highlight-color: transparent; color: #525c65; -webkit-font-smoothing: antialiased; text-align: center; box-sizing: border-box; margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; display: flex; margin-top: 10px; flex-direction: column;
+}
+
+
+.google {
+  -webkit-tap-highlight-color: transparent; box-sizing: border-box; line-height: inherit; margin: 0; display: inline-block; font-family: "Open Sans",sans-serif; font-size: 12px; font-weight: 600; -webkit-font-smoothing: antialiased; max-width: 100%; overflow: hidden; text-align: center; text-overflow: ellipsis; transition: box-shadow .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out,-webkit-box-shadow .2s ease-in-out; white-space: nowrap; background: #fff; padding: .75em 1em; width: 100%; border: none; color: #757c81; text-transform: none; box-shadow: 0 1px 2px rgba(0,0,0,.08),0 1px 4px rgba(0,0,0,.12); border-radius: 4px; letter-spacing: 0; min-width: 200px; margin-left: 0; margin-right: 0; margin-top: 10px; cursor: pointer;
+}
+
+.fb {
+  -webkit-tap-highlight-color: transparent; box-sizing: border-box; line-height: inherit; margin: 0; display: inline-block; font-family: "Open Sans",sans-serif; font-size: 12px; font-weight: 600; -webkit-font-smoothing: antialiased; max-width: 100%; overflow: hidden; text-align: center; text-overflow: ellipsis; transition: box-shadow .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out,-webkit-box-shadow .2s ease-in-out; white-space: nowrap; background: #fff; padding: .75em 1em; width: 100%; border: none; color: #757c81; text-transform: none; box-shadow: 0 1px 2px rgba(0,0,0,.08),0 1px 4px rgba(0,0,0,.12); border-radius: 4px; letter-spacing: 0; min-width: 200px; margin-left: 0; margin-right: 0; margin-top: 10px; cursor: pointer;
+}
