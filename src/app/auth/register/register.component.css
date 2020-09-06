@@ -1,0 +1,170 @@
+html,body {
+  height:100%;
+  margin:0;
+  padding:0;
+}
+
+body {
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  min-height:100vh;
+  font-family:'Roboto', sans-serif;
+}
+
+.app-header {
+  justify-content:space-between;
+  position:fixed;
+  top:0; left:0; right:0;
+  z-index:2;
+  box-shadow:0 3px 5px -1px rgba(0, 0, 0, .2), 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12);
+}
+
+.login-wrapper{
+  height:100%;
+}
+
+.company {
+  text-decoration:none;
+  color:#ffffff;
+}
+
+.box {
+  position:relative;
+  top:0;
+  opacity:1;
+  float:left;
+  padding:60px 50px 40px 50px;
+  width:100%;
+  background:#fff;
+  border-radius:5px;
+  transform:scale(1);
+  -webkit-transform:scale(1);
+  -ms-transform:scale(1);
+  z-index:5;
+  max-width:330px;
+}
+
+.box.back {
+  transform:scale(.95);
+  -webkit-transform:scale(.95);
+  -ms-transform:scale(.95);
+  opacity:.8;
+  z-index:-1;
+}
+
+.box:before {
+  content:"";
+  width:100%;
+  height:30px;
+  border-radius:10px;
+  position:absolute;
+  top:-10px;
+  background:rgba(255, 255, 255, .6);
+  left:0;
+  transform:scale(.95);
+  -webkit-transform:scale(.95);
+  -ms-transform:scale(.95);
+  z-index:-1;
+}
+
+.login-wrapper .example-form {
+  min-width:100%;
+  max-width:300px;
+  width:100%;
+}
+
+.login-wrapper .example-full-width,.login-wrapper .btn-block {
+  width:100%;
+}
+
+.login-wrapper mat-card-header {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  font-size: 34px;
+  font-weight: 300;
+  line-height: 1.3;
+  color: #2e3d49;
+  text-align: center;
+}
+
+.login-wrapper mat-card-header mat-card-title {
+  font-size:30px;
+  margin:0;
+}
+
+.login-wrapper .mat-card {
+  padding:40px 70px 50px;
+}
+
+.login-wrapper mat-card-subtitle {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  color: #525c65;
+  text-align: left;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.login-wrapper .mat-stroked-button {
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  line-height: inherit;
+  margin: 0;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 12px 15px 20px rgba(0,0,0,.1);
+  color: #fff;
+  display: inline-block;
+  font-family: "Open Sans",sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: .165em;
+  max-width: 100%;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  transition: box-shadow .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out,-webkit-box-shadow .2s ease-in-out;
+  white-space: nowrap;
+  background: #02b3e4;
+  padding: 1.2em 4em;
+  width: 100%;
+  cursor: pointer;
+}
+
+.login-wrapper .mat-form-field-appearance-legacy .mat-form-field-infix {
+  padding:0.8375em 0;
+}
+
+
+.login-wrapper .example-full-width {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0;
+  overflow: visible;
+  border-radius: .25rem;
+  border: 1px solid #96a0aa;
+  height: 3rem;
+  padding: .625rem 1rem;
+  transition: all .3s ease;
+  width: 100%;
+  margin-bottom: 0;
+  box-shadow: none;
+}
